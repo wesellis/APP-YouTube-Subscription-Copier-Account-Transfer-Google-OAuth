@@ -166,6 +166,9 @@ scratch.*
 personal/
 private/
 test-data/
+*REVIEW*.md
+*TRACKER*.md
+*CHECKLIST*.md
 
 # Browser cache and temporary files
 .cache/

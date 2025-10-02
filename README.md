@@ -211,4 +211,66 @@ MIT License - See [LICENSE](LICENSE) file for details.
 
 ---
 
+## Project Status & Roadmap
+
+**Completion: ~90%**
+
+### What Works
+- ✅ Google OAuth 2.0 authentication
+- ✅ YouTube Data API integration
+- ✅ Subscription fetching from source account
+- ✅ Subscription copying to destination account
+- ✅ Duplicate detection (skips already subscribed channels)
+- ✅ Real-time progress tracking
+- ✅ Client-side processing (no external servers)
+- ✅ Simple single-page application (index.html + main.js)
+- ✅ Bootstrap UI
+- ✅ Error handling for API failures
+
+### Known Limitations & Missing Features
+
+**API Quota Issues:**
+- ⚠️ **Daily Quota Limit**: YouTube API allows ~80-100 subscriptions per day (50 units each)
+- ⚠️ **Large Libraries**: Cannot transfer 500+ subscriptions in one session
+- ⚠️ **No Resume**: Must restart from beginning if quota exceeded
+
+**Missing Features:**
+- ❌ **Progress Persistence**: Cannot save progress and resume later
+- ❌ **Selective Transfer**: Cannot choose specific channels to transfer
+- ❌ **Batch Grouping**: No way to transfer subscriptions in organized batches
+- ❌ **Offline Cache**: No way to cache subscription list for later transfer
+- ❌ **Error Recovery**: Failed subscriptions aren't retried automatically
+
+**Usability:**
+- ⚠️ **Manual OAuth Setup**: Requires user to create Google Cloud project and get Client ID
+- ⚠️ **No Scheduling**: Cannot schedule transfers to spread across multiple days
+- ⚠️ **Limited Feedback**: Basic success/failure messages only
+
+### What Needs Work
+
+1. **Progress Persistence** - Save state to localStorage to resume later
+2. **Selective Transfer** - Add checkboxes to choose which channels to copy
+3. **Quota Management** - Track quota usage and pause/resume automatically
+4. **Batch Processing** - Split large transfers across multiple days
+5. **Better Error Handling** - Retry failed subscriptions
+6. **Export/Import** - Save subscription list for manual transfer later
+7. **Scheduling** - Set up automated multi-day transfers
+8. **Better UI** - More visual feedback and progress indicators
+
+### Current Status
+
+This is a **simple, functional tool** that does what it claims: copies YouTube subscriptions between accounts. The main limitation is YouTube's API quota (can only transfer ~80-100 channels per day).
+
+For small subscription lists (under 100), it works perfectly. For large lists (500+), you'll need to run it multiple days in a row, which is tedious without progress persistence.
+
+### Contributing
+
+If you'd like to help improve the tool, contributions are welcome. Priority areas:
+1. Adding localStorage progress persistence
+2. Implementing selective channel transfer
+3. Better quota management
+4. UI improvements
+
+---
+
 **Note**: This is a personal project for educational purposes. Use responsibly and respect YouTube's Terms of Service and API usage limits.

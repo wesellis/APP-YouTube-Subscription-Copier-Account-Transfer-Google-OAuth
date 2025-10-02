@@ -1,8 +1,12 @@
 # YouTube Subscription Copier
 
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=for-the-badge&logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![OAuth](https://img.shields.io/badge/OAuth-2.0-4285F4?style=for-the-badge&logo=google)](https://developers.google.com/identity/protocols/oauth2)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+A browser-based tool for transferring YouTube subscriptions between Google accounts.
+
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![OAuth](https://img.shields.io/badge/OAuth-2.0-4285F4?style=flat-square&logo=google&logoColor=white)](https://developers.google.com/identity/protocols/oauth2)
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/wesellis/APP-YouTube-Subscription-Copier-Account-Transfer-Google-OAuth?style=flat-square)](https://github.com/wesellis/APP-YouTube-Subscription-Copier-Account-Transfer-Google-OAuth/stargazers)
+[![Last Commit](https://img.shields.io/github/last-commit/wesellis/APP-YouTube-Subscription-Copier-Account-Transfer-Google-OAuth?style=flat-square)](https://github.com/wesellis/APP-YouTube-Subscription-Copier-Account-Transfer-Google-OAuth/commits)
 
 ## Overview
 

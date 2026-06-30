@@ -5,9 +5,8 @@ A feature-rich browser-based tool for transferring YouTube subscriptions between
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![OAuth](https://img.shields.io/badge/OAuth-2.0-4285F4?style=flat-square&logo=google&logoColor=white)](https://developers.google.com/identity/protocols/oauth2)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/wesellis/APP-YouTube-Subscription-Copier-Account-Transfer-Google-OAuth?style=flat-square)](https://github.com/wesellis/APP-YouTube-Subscription-Copier-Account-Transfer-Google-OAuth/stargazers)
-[![Last Commit](https://img.shields.io/github/last-commit/wesellis/APP-YouTube-Subscription-Copier-Account-Transfer-Google-OAuth?style=flat-square)](https://github.com/wesellis/APP-YouTube-Subscription-Copier-Account-Transfer-Google-OAuth/commits)
-[![Completion](https://img.shields.io/badge/Completion-98%25-brightgreen?style=flat-square)](https://github.com/wesellis/APP-YouTube-Subscription-Copier-Account-Transfer-Google-OAuth)
+[![Stars](https://img.shields.io/github/stars/wesellis/youtube-subscription-copier?style=flat-square)](https://github.com/wesellis/youtube-subscription-copier/stargazers)
+[![Last Commit](https://img.shields.io/github/last-commit/wesellis/youtube-subscription-copier?style=flat-square)](https://github.com/wesellis/youtube-subscription-copier/commits)
 
 ## Overview
 
@@ -258,75 +257,6 @@ MIT License - See [LICENSE](LICENSE) file for details.
 - Google for YouTube Data API
 - Bootstrap for UI styling
 - Community contributors
-
----
-
-## Project Status & Roadmap
-
-**Completion: ~98%** ✨ **MAJOR UPDATE - v2.0**
-
-### What Works
-
-**Core Features:**
-- ✅ Google OAuth 2.0 authentication
-- ✅ YouTube Data API integration
-- ✅ Subscription fetching from source account
-- ✅ Subscription copying to destination account
-- ✅ Client-side processing (no external servers)
-- ✅ Simple single-page application (index.html + main.js)
-
-**New Features (v2.0):**
-- ✅ **Progress Persistence** - localStorage saves your progress automatically
-- ✅ **Export/Import** - Save subscriptions to JSON and import later
-- ✅ **Quota Tracking** - Real-time API usage monitoring with visual progress
-- ✅ **Selective Transfer** - Choose which channels to transfer with checkboxes
-- ✅ **Auto-Retry Logic** - Failed subscriptions retry 3x with exponential backoff
-- ✅ **Smart Detection** - Skips completed and already-subscribed channels
-- ✅ **Progress Bar** - Visual real-time feedback during transfers
-- ✅ **Better UI** - Modern Bootstrap 4 interface with status badges
-- ✅ **Error Recovery** - Detailed error messages and retry button
-
-### Remaining Limitations
-
-**API Quota (Inherent YouTube API Limit):**
-- ⚠️ **Daily Quota Limit**: YouTube API allows ~80-100 subscriptions per day (50 units each)
-- ⚠️ **Large Libraries**: 500+ subscriptions require multiple days (now easier with progress persistence!)
-- ✅ **Resume Support**: Progress is saved automatically - just come back tomorrow!
-
-**Setup Requirements:**
-- ⚠️ **Manual OAuth Setup**: Requires creating Google Cloud project and Client ID (one-time setup)
-- ⚠️ **No Hosted Version**: Must run locally or self-host (by design for privacy)
-
-### Minor Enhancements for Future
-
-1. **Search/Filter** - Search channels by name in the selection list
-2. **Category Grouping** - Group channels by topic/category before transfer
-3. **Scheduled Transfers** - Auto-resume at specific times
-4. **Browser Extension** - Package as a Chrome/Firefox extension
-5. **Multi-Account Support** - Transfer to multiple accounts simultaneously
-
-### Current Status
-
-**v2.0 - Feature Complete! 🎉**
-
-This tool now has all the essential features needed for a smooth subscription transfer experience:
-
-- ✅ **Small lists (< 100)**: Works perfectly in one session
-- ✅ **Large lists (500+)**: Progress saved automatically - resume daily until complete
-- ✅ **Quota management**: Real-time tracking with warnings
-- ✅ **Error recovery**: Auto-retry + manual retry button
-- ✅ **Backup/Restore**: Export to JSON anytime
-
-The only remaining limitation is YouTube's inherent API quota (80-100 subs/day), which can't be avoided. But with progress persistence, this is now just a matter of patience rather than a blocker!
-
-### Contributing
-
-Contributions welcome! See CONTRIBUTING.md for guidelines. Priority areas:
-
-1. Search/filter functionality for channel list
-2. Category-based grouping
-3. Browser extension packaging
-4. UI/UX improvements
 
 ---
 
